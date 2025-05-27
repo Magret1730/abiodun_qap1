@@ -4,18 +4,22 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    width: 100%;
 }
 
 /* Header Section */
 .home__header {
-    max-width: 100%;
     display: flex;
     background-color: #003249;
-    height: 6vh;
+    /* height: 6vh; */
     color: #CCDBDC;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 85rem;
 }
 
 .home__header-title {
@@ -94,11 +98,12 @@ body {
 }
 
 .home__overview-text {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #003249;
-    text-align: center;
-    line-height: 2.5rem;
-    width: 100%;
+    text-align: justify;
+    line-height: 2rem;
+    padding: 0 1rem;
+    letter-spacing: 0.03rem;
 }
 
 .home__overview-media {

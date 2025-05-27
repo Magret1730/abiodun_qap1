@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./styles.css">
     <script src="home.js" ></script>
     <title>2018 Toyota RAV4</title>
 </head>
 <body>
     <!-- Header Section -->
     <header class="home__header">
-        <a class="home__header-title-logo" href="./home.html">
+        <a class="home__header-title-logo" href="./index.html">
             <img src="./images/RAV4_icon.jpg" alt="RAV4 Logo" class="home__header-logo-image">
             <p class="home__header-title">2018 Toyota RAV4</p>
         </a>
@@ -22,14 +22,14 @@
     </header>
     <main>
         <!-- Hero Section -->
-         <section class="home__hero">
-            <img class="home__hero-images" id="slideshow" src="images/RAV4a.avif" alt="RAV4 Car Pictures" />
-         </section>
+         <div class="home__hero">
+            <img class="home__hero-images" id="slideshow" src="images/RAV4a.avif" alt="RAV4 Car Pictures">
+         </div>
 
          <!-- Overview section autoplay; -->
-        <section class="home__overview">
+        <div class="home__overview">
             <section class="home__overview-content">
-                <h1 class="home__overview-title">Overview</h1>
+                <h2 class="home__overview-title">Overview</h2>
                 <p class="home__overview-text">
                     The 2018 Toyota RAV4 Limited is a compact SUV that
                     combines reliability, safety, and comfort. With a spacious interior and
@@ -39,7 +39,7 @@
                     fuel economy, reinforcing Toyota’s strong reputation for dependable vehicles.
                 </p>
             </section>
-            <section class="home__overview-media">
+            <div class="home__overview-media">
                 <iframe
                     class="home__overview-media-video"
                     src="https://www.youtube.com/embed/f1-CLzvw_xA"
@@ -47,14 +47,14 @@
                     allowfullscreen
                 >
                 </iframe>
-            </section>
-        </section>
+            </div>
+        </div>
 
         <!-- User Reviews Section -->
         <section class="home__reviews">
             <h2 class="home__reviews-title">Reviews</h2>
         
-            <section class="home__review-card">
+            <div class="home__review-card">
                 <p class="home__review-text">
                     “The 2018 RAV4 has excellent ride, comfort, and safety technology.
                     I was ambivalent about getting the advanced technology package with
@@ -70,9 +70,9 @@
                         (Source: Edmunds Reviews)
                     </a>
                 </p>
-            </section>
+            </div>
         
-            <section class="home__review-card">
+            <div class="home__review-card">
                 <p class="home__review-text">
                     “Among the numerous compact-SUV choices out there, the 2018 Toyota RAV4 remains a standout.
                     As the vehicle that started the compact-crossover-SUV segment, the RAV4 has consistently
@@ -92,9 +92,9 @@
                         (Source: Kelley Blue Book)
                     </a>
                 </p>
-            </section>
+            </div>
         
-            <section class="home__review-card">
+            <div class="home__review-card">
                 <p class="home__review-text">
                     “2018 Rav4 was totaled by someone who ran a stop sign. Miss this car every day. Every single
                     airbag went off and me and the other passenger were safe and able to walk away alive. Thankful
@@ -108,7 +108,7 @@
                         (Source: Cars.com Reviews)
                     </a>
                 </p>
-            </section>
+            </div>
         </section>        
     </main>
 
